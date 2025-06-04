@@ -1,3 +1,5 @@
+import  '../hojas-de-estilo/Boton.css';
+
 function Boton({ texto, esBotonCalculo, manejarClic}){
     return(
         <button 
