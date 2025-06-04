@@ -1,0 +1,25 @@
+.resistencia-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label {
+  font-size: 23px;
+  font-family: 'Dela Gothic One', sans-serif;
+  color: #5B5B5B;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  border-radius: 10px;
+  border: 2px solid #D9D9D9;
+  background-color: #D9D9D9;
+  font-family: 'Dela Gothic One', sans-serif;
+  width: 176px;
+  color: #5B5B5B;
+  padding-left: 10px;
+}
