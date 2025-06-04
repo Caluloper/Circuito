@@ -1,0 +1,11 @@
+.resistencia-form-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resistencia-input {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: black;
+  height: fit-content;
+}
