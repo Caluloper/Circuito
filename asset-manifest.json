@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Circuito/static/css/main.664b52c2.css",
+    "main.js": "/Circuito/static/js/main.f5509e4d.js",
+    "static/media/circuito.png": "/Circuito/static/media/circuito.64fe1d8c8ba080b71fd4.png",
+    "static/media/fiec.png": "/Circuito/static/media/fiec.899d8e70c874052eaefd.png",
+    "index.html": "/Circuito/index.html",
+    "main.664b52c2.css.map": "/Circuito/static/css/main.664b52c2.css.map",
+    "main.f5509e4d.js.map": "/Circuito/static/js/main.f5509e4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.664b52c2.css",
+    "static/js/main.f5509e4d.js"
+  ]
+}
