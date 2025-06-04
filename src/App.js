@@ -87,15 +87,15 @@ function App() {
             src={circuitoIMG}
           />
           <div className='resultado-container'>
-            <label className='resultado'>It =</label>
-            <div className='valor-corriente'>{resultado + ' A'}</div>
-            <label className='resultado'>Rt =</label>
-            <div className='valor-resistencia'>{resistencia + ' Ω'}</div>
+            <label className='resultado'><span className='letra-grande'>I</span>t =</label>
+            <div className='valor-corriente'>{resultado.toExponential(2) + ' A'}</div>
+            <label className='resultado'><span className='letra-grande'>R</span>t =</label>
+            <div className='valor-resistencia'>{resistencia.toExponential(2) + ' Ω'}</div>
           </div>
         </div>
       </div>
       <div className='footer-container'>
-        <p>Made By GroupAp</p>
+        <p>Made By GrupoAp</p>
         <img 
           className='logo-fiec'
           alt='FIEC'

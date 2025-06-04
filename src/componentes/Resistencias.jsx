@@ -127,7 +127,7 @@ function Resistencias({ valores, setValores }) {
           name='V'
           onChange={manejarCambio}
           value={valores.V}
-          placeholder='Ω'
+          placeholder='V'
           type='number'
           min='1'
           required
