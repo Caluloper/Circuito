@@ -32,7 +32,7 @@ function App() {
     const req5 = (valores.r5 * req3) / (valores.r5 + req3);
     const req6 = req5 + req4;
     const req7 = (req2 * req6) / (req2 + req6);
-    const resistencia = req1 + req7;
+    const resistencia = (req1 + req7) / 1;
 
     const resultado = valores.V / resistencia;
 
